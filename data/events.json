@@ -1,0 +1,220 @@
+[
+    {
+        "title":"On veut des desserts !",
+        "description":"Un homme de votre équipage vient vous expliquer que ses camarades ont faim ! Il demande une augmentation des rations de nourriture.",
+        "choices":
+        [
+            "Accepter",
+            "Refuser"
+        ],
+        "consequences":
+        [
+            [-10,-10,5,0],
+            [0,5,-20,0]
+        ]
+    },
+    {
+        "title": "Au travail ?",
+        "description": "L'énergie vient à manquer, il va falloir organiser une expédition pour récolter du combustible.",
+        "choices": [
+            "OK",
+            "Attendre"
+        ],
+        "consequences": [
+            [-5,-5,-10,15],
+            [5,5,0,0]
+        ]
+    },
+    {
+        "title": "Nouveau projet prêt !",
+        "description": "L'ingénieur de bord est prêt à travailler sur un nouveau système ! choisissez une machine à réparer",
+        "choices": [
+            "Recycleur d'oxygène",
+            "Machine à café"
+        ],
+        "consequences": [
+            [10,0,0,-20],
+            [0,5,5,-20 ]
+        ]
+    },
+    {
+        "title": "Formation continue",
+        "description": "Le professeur de la colonie vous propose d'organiser des cours du soir, quelle matière doit-il enseigner ?",
+        "choices": [
+            "Mécanique",
+            "Biologie"
+        ],
+        "consequences": [
+            [-5,0,-15,10],
+            [5,5,-10,-5]
+        ]
+    },
+    {
+        "title": "L'industrie commence !",
+        "description": "Les chimistes du vaisseau sont prêt à produire, du carburant ou des McVeggie ?",
+        "choices": [
+            "Carburant",
+            "Nourriture"
+        ],
+        "consequences": [
+            [-10,-5,0,10],
+            [-10,10,5,-10]
+        ]
+    },
+    {
+        "title": "Des Loisirs",
+        "description": "L'architecte de la colonie a préparé plusieurs projets, préfèreriez vous construire un parc ou un cinéma spatial ?",
+        "choices": [
+            "Parc",
+            "Cinéma"
+        ],
+        "consequences": [
+            [10,-15,0,0],
+            [0,0,10,-15]
+        ]
+    },
+    {
+        "title": "Solitude spatiale...",
+        "description": "Les colons se sentent seuls, ils voudraient construire un téléphone interstellaire pour parler avec leurs familles. Acceptez-vous ?",
+        "choices": [
+            "Oui",
+            "Non"
+        ],
+        "consequences": [
+            [-5,-5,20,-15],
+            [0,0,-15, 0]
+        ]
+    },
+    {
+        "title": "Au voleur !",
+        "description": "Vous découvrez quelqu'un qui a fouillé dans la cale du vaisseau pour augmenter ses rations, le condamnez vous à de la prison ?",
+        "choices": [
+            "Oui",
+            "Non"
+        ],
+        "consequences": [
+            [0,5,-15,0],
+            [-5,-5,-5,0]
+        ]
+    },
+    {
+        "title": "Accident !",
+        "description": "Une météorite a endommagé le système de filtration de l'air ! Faut-il fermer les batiments pollués pour les nettoyer complètement ou laisser travailler les gens dans un air de moins bonne qualité le temps que tout soit réglé ?",
+        "choices": [
+            "Nettoyer",
+            "Garder ouvert"
+        ],
+        "consequences": [
+            [-20,0,0,-10],
+            [-10,0,-15,-5]
+        ]
+    },
+    {
+        "title": "Gastronomie",
+        "description": "Des colons voudraient organiser des cours de cuisine pour garder le souvenir des plats de leur planète d'origine, bien sûr cet atelier empièterait sur les heures de travail...",
+        "choices": [
+            "Accepter",
+            "Refuser"
+        ],
+        "consequences": [
+            [-5,5,10,-15],
+            [0,0,-10,0]
+        ]
+    },
+    {
+        "title": "Congés payés",
+        "description": "Vos colons demandent des vacances après tous ces évènements, mais il ne faudrait pas sacrifier la productivité",
+        "choices": [
+            "Leur accorder des congés",
+            "Refuser"
+        ],
+        "consequences": [
+            [-5,-5,10,-10],
+            [0,0,-15,0]
+        ]
+    },
+    {
+        "title": "Il faut construire !",
+        "description": "L'architecte est à nouveau prêt !, il a deux proposition à vous faire, construire un chemin de fer pour accélérer la livraison de la nourriture ou se lancer dans l'élevage pour offrir de la viande à vos colons.",
+        "choices": [
+            "Chemin de fer",
+            "Ferme"
+        ],
+        "consequences": [
+            [0,10,0,-20],
+            [-25,10,0,0]
+        ]
+    },
+    {
+        "title": "Matériel",
+        "description": "Les explorateurs demandent plus de matériel pour effectuer leurs prospections, ce matériel leur ferait découvrir de nouvelles réserves d'oxygène.",
+        "choices": [
+            "Accepter",
+            "Refuser"
+        ],
+        "consequences": [
+            [10,0,0,-15],
+            [0,0,-10,0]
+        ]
+    },
+    {
+        "title": "Nouvells recrues !",
+        "description": "De nouveaux colons sont arrivés dans la colonie, doivent-ils être affectés à la récolte de nourriture ou à la production d'électricité ?",
+        "choices": [
+            "Nourriture",
+            "Electricité"
+        ],
+        "consequences": [
+            [-5,10,0,-10],
+            [-5,-10,0,10]
+        ]
+    },
+    {
+        "title": "Kermesse",
+        "description": "C'est l'anniversaire de la colonie ! On vous propose d'organiser un banquet pour fêter l'évènement.",
+        "choices": [
+            "Accepter",
+            "Refuser"
+        ],
+        "consequences": [
+            [-5,-15,15,-5],
+            [0,0,-20,0]
+        ]
+    },
+    {
+        "title": "Réparations",
+        "description": "Les câbles de transport d'électricité ont été sectionnés, choississez un secteur à mettre hors tension le temps de la réparation", 
+        "choices": [
+            "Dortoirs",
+            "Circuit d'air conditionné"
+        ],
+        "consequences": [
+            [0,0,-15,-10],
+            [-10,0,-5,-10]
+        ]
+    },
+    {
+        "title": "Recherche et développement",
+        "description": "C'est l'heure d'améliorer votre matériel : orientez vous la recherche vers des maisons plus économes en oxygène ou vers des engrais plus efficaces ?", 
+        "choices": [
+            "Maisons",
+            "Engrais"
+        ],
+        "consequences": [
+            [15,-5,5,-20],
+            [5,10,0,-20]
+        ]
+    },
+    {
+        "title": "Esprit sportif",
+        "description": "L'équipe de Volley-ball sans gravité de la colonie vient d'être sélectionnée au niveau galactique ! Autorisez vous les autres colons à suivre leurs matchs à la télévision.",
+        "choices": [
+            "Oui",
+            "Non"
+        ],
+        "consequences": [
+            [-5,-5,10,-5],
+            [5,5,-20,5]
+        ]
+    }
+]

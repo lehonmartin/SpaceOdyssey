@@ -1,0 +1,18 @@
+[
+    {
+        "title":"On veut des desserts !",
+        "description":"Un homme de votre équipage vient vous expliquer que ses camarades ont faim ! Il demande une augmentation des rations de nourriture.",
+        "choices":
+        [
+            "Accepter",
+            "Refuser",
+            "le gaver à mort"
+        ],
+        "consequences":
+        [
+            [-10,-10,5,0],
+            [0,5,-20,0],
+            [-100,-100,0,-100]
+        ]
+    }
+]
